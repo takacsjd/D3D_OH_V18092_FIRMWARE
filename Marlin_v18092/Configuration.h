@@ -719,7 +719,7 @@ FW change summary
 #define X_MIN_POS 0
 #define Y_MIN_POS 0
 #define Z_MIN_POS 0
-#define Y_MAX_POS 304
+#define Y_MAX_POS 304 //D3DOH bed is 12" by 12", so reflecting this as 11.96" (cannot use decimals) 305 would be 12.0079"...
 #define X_MAX_POS 304
 #define Z_MAX_POS 304
 
